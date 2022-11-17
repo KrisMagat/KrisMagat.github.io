@@ -9,7 +9,7 @@
     "dev": "webpack-dev-server --mode development",
     "build": "webpack --mode production",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/KrisMagat/krismagat.github.io/issues"
   },
-  "homepage": "https://github.com/KrisMagat/krismagat.github.io",
+  "homepage": "https://krismagat.github.io",
   "devDependencies": {
     "@babel/core": "^7.20.2",
     "@babel/preset-env": "^7.20.2",
